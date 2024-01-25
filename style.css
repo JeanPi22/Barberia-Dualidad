@@ -6,12 +6,13 @@
 html{
     font-size: 62.5%;
 }
+
 .principal{
     background: #CCCCCC;
     padding: 1rem;
 }
 .titulo-principal{
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding: 1.5rem;
 }
 #banner{
