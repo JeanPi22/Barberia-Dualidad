@@ -7,50 +7,100 @@ html{
     font-size: 62.5%;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 1rem;
+header{
+    background-color: #BBBBBB;
 }
-.titulo-principal{
-    font-size: 3.5rem;
-    padding: 1.5rem;
+header img{
+    height: 20rem;
 }
-#banner{
-    width: 100%;
+.caja{
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
 }
-h2{
-    font-size: 3rem;
-    text-align: center;
-    margin: 2rem;
+nav{
+    position: absolute;
+    top: 9rem;
+    right: 0;
 }
-p{
-    font-size: 1.5rem;
-    text-align: center;
+nav li{
+    display: inline;
+    margin: 0 0 0 1.5rem;
 }
-em strong{
-    color: red;
-}
-#mision{
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
     font-size: 2rem;
+    text-decoration: none;
 }
-.diferenciales{
-    background: white;
+.productos{
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem;
 }
-h3{
-    font-size: 2rem;
-    text-align: center;
-    margin: 1.5rem;
-}
-ul{
+.productos li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin: 0 2rem;
+    margin: 0 1.5%;
+    padding: 3rem 2rem;
+    border: .2rem solid #000000;
+    border-radius: 2rem;
 }
-ul .items{
-    font-style: italic;
-    font-size: 1.5rem;
+.productos h2{
+    font-size: 3rem;
+    font-weight: bold;    
 }
-.diferenciales .imagenDiferencial{
+.producto-descripcion{
+    font-size: 1.8rem;
+}
+.producto-precio{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+nav a:hover{
+    color: #c78c19;
+}
+.productos li:hover{
+    border-color: #c78c19;
+}
+.productos li:hover h2{
+    font-size: 3.3rem;
+}
+
+footer{
+    text-align: center;
+    background: url(/img/bg.jpg);
+    padding: 3.5rem;
+}
+.copyright{
+    color: white;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+main{
+    width: 85%;
+    margin: 0 auto;
+}
+form{
+    margin: 4rem 0;
+}
+form label, form p{
+    display: block;
+    font-size: 2rem;
+    margin: 0 0 1rem;
+}
+.input-padrom{
+    display: block;
+    margin: 0 0 2rem;
+    padding: 1rem 2.5rem;
     width: 50%;
+}
+.checkbox{
+    margin: 2rem 0;
 }
