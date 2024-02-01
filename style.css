@@ -90,7 +90,11 @@ main{
 form{
     margin: 4rem 0;
 }
-form label, form p{
+form fieldset{
+    border-color: transparent;
+    margin-top: 2rem;
+}
+form label, form legend{
     display: block;
     font-size: 2rem;
     margin: 0 0 1rem;
@@ -103,4 +107,33 @@ form label, form p{
 }
 .checkbox{
     margin: 2rem 0;
+}
+.enviar {
+    width: 40%;
+    padding: 1.5rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: darkorange;
+    transition: 1s all;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 4rem 4rem;
+}
+thead {
+    background: #555555;
+    color:  white;
+    font-weight: bold;
+}
+td, th {
+    border:  0.1rem solid black;
+    padding: .8rem 1.5rem;
 }
